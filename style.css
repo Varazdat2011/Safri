@@ -1,0 +1,96 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html, body {
+	height: 100%;
+}
+
+nav {
+	background-color: white;
+	height: 80px;
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+
+}
+
+div {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+img {
+	height: 50px;
+	width: 100px;
+}
+
+ul {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	width: 600px;
+	list-style-type: none;
+}
+
+li a {
+	text-decoration: none;
+	font-size: 18px;
+	font-family: BraindAmanor;
+}
+
+li {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 40px;
+	width: 100px;
+	
+}
+
+li:hover {
+	background-color: #eec543;
+}
+
+li:hover a {
+	color: white;
+}
+
+section {
+	background-image: url(https://www.landofnoah.com/uploads/0000/18/2021/06/30/areni-winery-2.jpg);
+	height: 500px;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: 100% 500px;
+	display: flex;
+	justify-content: center;
+	color: white; 
+	flex-direction: column;
+
+}
+
+h1 {
+	font-size: 50px;
+}
+
+p {
+	font-size: 30px;
+}
+
+button {
+	height: 40px;
+	width: 170px;
+	background-color :#eec543; 
+}
+
+section h1, p, button {
+	margin-left: 200px;
+}
+
+.buttona {
+	color: white;
+	text-decoration: none;
+	font-size: 17px;
+}
